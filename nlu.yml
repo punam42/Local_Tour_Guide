@@ -1,0 +1,569 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+
+
+- intent: ask_about_chitwan
+  examples: |
+    - Tell me about Chitwan.
+    - What are the best places to visit in Chitwan?
+    - Can you give me an overview of Chitwan?
+    - I'd like to know more about Chitwan.
+    - Give me some history about Chitwan.
+
+- intent: ask_about_chitwan_national_park
+  examples: |
+    - Tell me about Chitwan National Park.
+    - What can I see in Chitwan National Park?
+    - Give me details about Chitwan National Park.
+    - I want to know about Chitwan National Park.
+    - What's special about Chitwan National Park?
+
+- intent: ask_about_tharu_village
+  examples: |
+    - Tell me about Tharu Village.
+    - What can I do in Tharu Village?
+    - Give me information about Tharu Village.
+    - What's interesting about Tharu Village?
+    - Can you describe Tharu Village?
+
+- intent: ask_about_jalbire_waterfall
+  examples: |
+    - Tell me about Jalbire Waterfall.
+    - What's special about Jalbire Waterfall?
+    - Give me details about Jalbire Waterfall.
+    - I want to know about Jalbire Waterfall.
+    - What's Jalbire Waterfall like?
+
+- intent: ask_about_siraichuli_hill_view_point
+  examples: |
+    - Tell me about Siraichuli Hill View Point.
+    - What's special about Siraichuli Hill View Point?
+    - Give me details about Siraichuli Hill View Point.
+    - I want to know about Siraichuli Hill View Point.
+    - What's Siraichuli Hill View Point like?
+
+- intent: ask_about_devghat
+  examples: |
+    - Tell me about Devghat.
+    - What's special about Devghat?
+    - Give me details about Devghat.
+    - I want to know about Devghat.
+    - What's Devghat like?
+
+- intent: ask_about_shashwat_dham
+  examples: |
+    - Tell me about Shashwat Dham.
+    - What's special about Shashwat Dham?
+    - Give me details about Shashwat Dham.
+    - I want to know about Shashwat Dham.
+    - What's Shashwat Dham like?
+
+- intent: ask_about_tharu_cultural_museum
+  examples: |
+    - Tell me about Tharu Cultural Museum.
+    - What's special about Tharu Cultural Museum?
+    - Give me details about Tharu Cultural Museum.
+    - I want to know about Tharu Cultural Museum.
+    - What's Tharu Cultural Museum like?
+
+- intent: ask_about_elephant_breeding_center
+  examples: |
+    - Tell me about the Elephant Breeding Center.
+    - What's special about the Elephant Breeding Center?
+    - Give me details about the Elephant Breeding Center.
+    - I want to know about the Elephant Breeding Center.
+    - What's the Elephant Breeding Center like?
+
+- intent: ask_about_bis_hazari_taal
+  examples: |
+    - Tell me about Bis Hazari Taal.
+    - What's special about Bis Hazari Taal?
+    - Give me details about Bis Hazari Taal.
+    - I want to know about Bis Hazari Taal.
+    - What's Bis Hazari Taal like?
+
+- intent: ask_about_ranipokhari
+  examples: |
+    - Tell me about Ranipokhari.
+    - What's special about Ranipokhari?
+    - Give me details about Ranipokhari.
+    - I want to know about Ranipokhari.
+    - What's Ranipokhari like?
+
+
+
+
+
+
+- intent: top_10_hiking_places
+  examples: |
+    - Tell me about the top 10 hiking places in Kathmandu
+    - What are the most popular hiking places in Kathmandu?
+    - List the top hiking places in Kathmandu
+    - Show me the best hiking spots in Kathmandu
+    - I want to know about popular hiking destinations in Kathmandu
+
+- intent: nagarkot_hiking
+  examples: |
+    - Tell me about Nagarkot hiking
+    - What are the highlights of Nagarkot hiking?
+    - Describe the Nagarkot hiking route
+    - I want to know about Nagarkot hike
+    - Can you give me details about Nagarkot hike?
+
+- intent: shivapuri_hiking
+  examples: |
+    - Tell me about Shivapuri hiking
+    - What are the highlights of Shivapuri hiking?
+    - Describe the Shivapuri hiking route
+    - I want to know about Shivapuri hike
+    - Can you give me details about Shivapuri hike?
+
+- intent: kakani_hiking
+  examples: |
+    - Tell me about Kakani hiking
+    - What are the highlights of Kakani hiking?
+    - Describe the Kakani hiking route
+    - I want to know about Kakani hike
+    - Can you give me details about Kakani hike?
+
+- intent: chandragiri_hiking
+  examples: |
+    - Tell me about Chandragiri hiking
+    - What are the highlights of Chandragiri hiking?
+    - Describe the Chandragiri hiking route
+    - I want to know about Chandragiri hike
+    - Can you give me details about Chandragiri hike?
+
+- intent: chisapani_hiking
+  examples: |
+    - Tell me about Chisapani hiking
+    - What are the highlights of Chisapani hiking?
+    - Describe the Chisapani hiking route
+    - I want to know about Chisapani hike
+    - Can you give me details about Chisapani hike?
+
+- intent: jamacho_hiking
+  examples: |
+    - Tell me about Jamacho hiking
+    - What are the highlights of Jamacho hiking?
+    - Describe the Jamacho hiking route
+    - I want to know about Jamacho hike
+    - Can you give me details about Jamacho hike?
+
+- intent: namo_buddha_hiking
+  examples: |
+    - Tell me about Namo Buddha hiking
+    - What are the highlights of Namo Buddha hiking?
+    - Describe the Namo Buddha hiking route
+    - I want to know about Namo Buddha hike
+    - Can you give me details about Namo Buddha hike?
+
+- intent: phulchowki_hiking
+  examples: |
+    - Tell me about Phulchowki hiking
+    - What are the highlights of Phulchowki hiking?
+    - Describe the Phulchowki hiking route
+    - I want to know about Phulchowki hike
+    - Can you give me details about Phulchowki hike?
+
+- intent: champadevi_hiking
+  examples: |
+    - Tell me about Champadevi hiking
+    - What are the highlights of Champadevi hiking?
+    - Describe the Champadevi hiking route
+    - I want to know about Champadevi hike
+    - Can you give me details about Champadevi hike?
+
+- intent: amitabha_monastery_hiking
+  examples: |
+    - Tell me about Amitabha Monastery/White Gumba hike
+    - What are the highlights of Amitabha Monastery/White Gumba hike?
+    - Describe the Amitabha Monastery/White Gumba hiking route
+    - I want to know about Amitabha Monastery/White Gumba hike
+    - Can you give me details about Amitabha Monastery/White Gumba hike?
+
+
+
+
+- intent: faq_hiking_in_nepal
+  examples: |
+    - Tell me about hiking in Nepal
+    - How is hiking in Nepal?
+    - Can you explain hiking in Nepal?
+    - What is hiking in Nepal like?
+    - Describe hiking in Nepal
+
+- intent: best_snacks_while_hiking
+  examples: |
+    - What are the best snacks or food to take during hiking?
+    - What snacks should I bring on a hike?
+    - Can you recommend some hiking snacks?
+    - What food is best for hiking?
+    - Suggest some snacks for hiking
+
+- intent: essential_things_to_pack
+  examples: |
+    - What are the most essential things to pack while going hiking?
+    - What should I pack for a hike?
+    - Can you list the essential hiking gear?
+    - What do I need to bring for hiking?
+    - Essential items for a hiking trip
+
+- intent: trekking_stick_compulsory
+  examples: |
+    - Is a trekking stick really compulsory?
+    - Do I need a trekking stick for hiking?
+    - Should I bring a trekking stick?
+    - Are trekking sticks necessary?
+    - Is it mandatory to have a trekking stick?
+
+- intent: ideal_breakfast_for_hiking
+  examples: |
+    - What can be the ideal breakfast during hiking to give us energy?
+    - What should I eat for breakfast before a hike?
+    - Can you recommend a good hiking breakfast?
+    - What's a nutritious breakfast for hiking?
+    - Best breakfast options for hikers
+
+- intent: other_things_to_enjoy_in_kathmandu
+  examples: |
+    - What other things can I enjoy in Kathmandu?
+    - Suggest other activities in Kathmandu
+    - What else can I do in Kathmandu besides hiking?
+    - Can you recommend other attractions in Kathmandu?
+    - What are some other enjoyable things in Kathmandu?
+
+- intent: world_heritage_sites_in_kathmandu
+  examples: |
+    - What are the World Heritage Sites in Kathmandu Valley?
+    - Tell me about the heritage sites in Kathmandu
+    - Which World Heritage Sites are in Kathmandu?
+    - List the World Heritage Sites in Kathmandu Valley
+    - Describe the World Heritage Sites of Kathmandu Valley
+
+- intent: religious_places_in_kathmandu
+  examples: |
+    - What are the religious places in Kathmandu?
+    - Tell me about the religious sites in Kathmandu
+    - Which religious places can I visit in Kathmandu?
+    - List the religious places in Kathmandu
+    - Describe the religious places in Kathmandu
+
+- intent: kathmandu_durbar_square
+  examples: |
+    - Tell me about Kathmandu Durbar Square
+    - What can I see in Kathmandu Durbar Square?
+    - Describe Kathmandu Durbar Square
+    - What is special about Kathmandu Durbar Square?
+    - Can you give me details about Kathmandu Durbar Square?
+
+- intent: bhaktapur_durbar_square
+  examples: |
+    - Tell me about Bhaktapur Durbar Square
+    - What can I see in Bhaktapur Durbar Square?
+    - Describe Bhaktapur Durbar Square
+    - What is special about Bhaktapur Durbar Square?
+    - Can you give me details about Bhaktapur Durbar Square?
+
+- intent: patan_durbar_square
+  examples: |
+    - Tell me about Patan Durbar Square
+    - What can I see in Patan Durbar Square?
+    - Describe Patan Durbar Square
+    - What is special about Patan Durbar Square?
+    - Can you give me details about Patan Durbar Square?
+
+- intent: swayambhunath
+  examples: |
+    - Tell me about Swayambhunath
+    - What can I see in Swayambhunath?
+    - Describe Swayambhunath
+    - What is special about Swayambhunath?
+    - Can you give me details about Swayambhunath?
+
+- intent: boudhanath
+  examples: |
+    - Tell me about Boudhanath
+    - What can I see in Boudhanath?
+    - Describe Boudhanath
+    - What is special about Boudhanath?
+    - Can you give me details about Boudhanath?
+
+- intent: pashupatinath
+  examples: |
+    - Tell me about Pashupatinath
+    - What can I see in Pashupatinath?
+    - Describe Pashupatinath
+    - What is special about Pashupatinath?
+    - Can you give me details about Pashupatinath?
+
+- intent: changunarayan
+  examples: |
+    - Tell me about Changunarayan
+    - What can I see in Changunarayan?
+    - Describe Changunarayan
+    - What is special about Changunarayan?
+    - Can you give me details about Changunarayan?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- intent: national_parks_of_nepal
+  examples: |
+    - Tell me about the national parks of Nepal.
+    - What are some national parks in Nepal?
+    - Give me information about Nepal's national parks.
+- intent: discover_nepal_through_forests
+  examples: |
+    - How can I discover Nepal through its forests?
+    - Tell me about trekking in Nepal.
+    - What can I experience in Nepal's forests?
+- intent: about_khaptad_national_park
+  examples: |
+    - What's special about Khaptad National Park?
+    - Tell me more about Khaptad National Park.
+    - What activities can I do in Khaptad National Park?
+- intent: about_langtang_national_park
+  examples: |
+    - What's Langtang National Park known for?
+    - Tell me about Langtang National Park's wildlife.
+    - What can I see in Langtang National Park?
+- intent: about_sagarmatha_national_park
+  examples: |
+    - What's unique about Sagarmatha National Park?
+    - Tell me about the wildlife in Sagarmatha National Park.
+    - What's the best time to visit Sagarmatha National Park?
+- intent: about_chitwan_national_park
+  examples: |
+    - What animals can I see in Chitwan National Park?
+    - Tell me about Chitwan National Park's flora and fauna.
+    - What activities are available in Chitwan National Park?
+- intent: about_makalu_barun_national_park
+  examples: |
+    - What's special about Makalu Barun National Park?
+    - Tell me about the wildlife in Makalu Barun National Park.
+    - How can I access Makalu Barun National Park?
+- intent: about_shey_phoksundo_national_park
+  examples: |
+    - What's unique about Shey-Phoksundo National Park?
+    - Tell me about the flora and fauna in Shey-Phoksundo National Park.
+    - How can I reach Shey-Phoksundo National Park?
+- intent: about_shivapuri_nagarjun_national_park
+  examples: |
+    - What can I do in Shivapuri Nagarjun National Park?
+    - Tell me about the wildlife in Shivapuri Nagarjun National Park.
+    - How can I access Shivapuri Nagarjun National Park?
+- intent: about_banke_national_park
+  examples: |
+    - What animals are protected in Banke National Park?
+    - Tell me about the ecosystem of Banke National Park.
+    - How can I access Banke National Park?
+- intent: about_koshitappu_wildlife_reserve
+  examples: |
+    - What birds can I see in Koshitappu Wildlife Reserve?
+    - Tell me about the flora and fauna in Koshitappu Wildlife Reserve.
+    - How can I access Koshitappu Wildlife Reserve?
+- intent: about_parsa_national_park
+  examples: |
+    - What animals can I see in Parsa National Park?
+    - Tell me about the vegetation in Parsa National Park.
+    - How can I access Parsa National Park?
+- intent: about_shuklaphanta_national_park
+  examples: |
+    - What wildlife can I see in Shuklaphanta National Park?
+    - Tell me about the vegetation in Shuklaphanta National Park.
+    - How can I access Shuklaphanta National Park?
+- intent: about_dhorpatan_hunting_reserve
+  examples: |
+    - What animals can I hunt in Dhorpatan Hunting Reserve?
+    - Tell me about the flora and fauna in Dhorpatan Hunting Reserve.
+    - How can I access Dhorpatan Hunting Reserve?
+- intent: about_annapurna_conservation_area
+  examples: |
+    - What's special about Annapurna Conservation Area?
+    - Tell me about the wildlife in Annapurna Conservation Area.
+    - How can I access Annapurna Conservation Area?
+- intent: about_kanchenjunga_conservation_area
+  examples: |
+    - What's unique about Kanchenjunga Conservation Area?
+    - Tell me about the wildlife in Kanchenjunga Conservation Area.
+    - How can I access Kanchenjunga Conservation Area?
+- intent: about_api_nampa_conservation_area
+  examples: |
+    - What animals can I see in Api Nampa Conservation Area?
+    - Tell me about the flora and fauna in Api Nampa Conservation Area.
+    - How can I access Api Nampa Conservation Area?
+
+
+
+
+
+- intent: provide_pokhara_information
+  examples: |
+    - Can you tell me about Pokhara?
+    - What are some popular places to visit in Pokhara?
+    - I want to know more about Pokhara.
+    - Tell me about the top attractions in Pokhara.
+    - What is there to do in Pokhara?
+    - Give me information about Pokhara.
+    - Can you list some places to visit in Pokhara?
+    - What are the best times to visit Pokhara?
+    - When should I visit Pokhara?
+    - What is the best season to go to Pokhara?
+    - When is the peak tourist season in Pokhara?
+    - What are the must-visit places in Pokhara?
+    - What are some offbeat attractions in Pokhara?
+
+
+
+
+- intent: provide_far_western_nepal_information
+  examples: |
+    - Can you tell me about Far Western Nepal?
+    - What are some popular places to visit in Far Western Nepal?
+    - I want to know more about the Far West region in Nepal.
+    - Tell me about the top attractions in Far Western Nepal.
+    - What is there to do in Far Western Nepal?
+    - Give me information about Far Western Nepal.
+    - Can you list some places to visit in Far Western Nepal?
+    - What are the best times to visit Far Western Nepal?
+    - When should I visit Far Western Nepal?
+    - What is the best season to go to Far Western Nepal?
+    - When is the peak tourist season in Far Western Nepal?
+    - What are the must-visit places in Far Western Nepal?
+    - What are some offbeat attractions in Far Western Nepal?
+
+
+
+
+- intent: inform_trek
+  examples: |
+    - I want to know about the Annapurna Base Camp Trek
+    - Can you tell me about the Everest Base Camp Trek?
+    - What's there to know about the Manaslu Circuit Trek?
+    - Tell me about the Annapurna Circuit Trek
+    - What's the deal with the Annapurna Panorama Trek?
+    - I'm interested in the Langtang Valley Trek
+    - What's the scoop on the Everest High Passes Trek?
+    - What should I know about the Upper Dolpo Trek?
+    - Can you tell me about the Makalu Base Camp Trek?
+    - I'm curious about the Kanchenjunga Trek
+    - Tell me about the Everest Gokyo Lake Trek
+    - What's the story with the Pikey Peak Trek?
+    - I want to know about the Langtang Gosaikunda Trek
+    - Tell me about the Mardi Himal Trek
+
+ 
+
+  
+- intent: conclusion_query
+  examples: |
+    - Can you summarize the trekking destinations in Nepal?
+    - What's the conclusion of the trekking destinations in Nepal?
+    - Give me a summary of Nepal's trekking destinations.
+    - I want to know the overall picture of trekking in Nepal.
+    - Tell me about the conclusion of the Nepal trekking destinations.
+
+

@@ -1,0 +1,400 @@
+version: "3.1"
+
+intents:
+  - greetra
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_inform:
+  - text: "I'm sorry, I couldn't find information about that trek. Can you please try asking in a different way?"
+  utter_thanks:
+  - text: "You're welcome! If you have any more questions, feel free to ask."
+    
+
+
+  
+  utter_inform_about_chitwan:
+  - text: "Chitwan, known as the 'Heart of Jungle,' is situated in the southwestern part of Bagmati Province, Nepal. Renowned for its vibrant local culture and remarkable biodiversity, Chitwan offers a range of lively celebrations and natural wonders. The true jewel of this region is Chitwan National Park, a UNESCO World Heritage Site, sanctuary for a diverse range of wildlife, including the endangered one-horned rhinoceros and Bengal tiger."
+  utter_inform_about_chitwan_national_park:
+  - text: "Chitwan National Park is a natural wonderland that provides an opportunity to witness some of the world's most incredible wildlife. It also offers a chance to connect with nature, contribute to conservation efforts, and gain insights into the culture of the Tharu people. The park boasts a rich biodiversity that captivates nature enthusiasts."
+  utter_inform_about_tharu_village:
+  - text: "Chitwan Tharu Village is a must-visit destination for its immersive cultural experience. It offers a unique opportunity to experience the daily life, customs, and traditions of the Tharu people, one of Nepal's largest indigenous communities. Visitors can engage in a variety of activities with the Tharu people and community, including traditional Tharu dance, guided village tours, and interactions with locals."
+  utter_inform_about_jalbire_waterfall:
+  - text: "Jalbire Waterfall, also known as Lamo Jharana, is a hidden gem in Chitwan, Nepal. Cascading gracefully from a height of 100 meters, it has become a popular destination for both locals and tourists. One of its distinctive features is its suitability for canyoning, making it one of the best canyoning spots in Nepal."
+  utter_inform_about_siraichuli_hill_view_point:
+  - text: "Siraichuli Hill View Point is one of the best places to visit in Chitwan for its amazing views! Rising to an altitude of 1,945 meters, Siraichuli offers panoramic vistas that encompass a breathtaking range of mountains. Visitors are treated to awe-inspiring views of renowned peaks such as Gausankhar, Dhaulagiri, Langtang, Rolwaling, and Manaslu."
+  utter_inform_about_devghat:
+  - text: "Devghat, situated in central Nepal, stands as a renowned hub of religious and cultural significance. Located at the confluence of the Seti Gandaki and Krishna Gandaki rivers, this town holds a revered place in Hindu mythology. It is one of the holiest sites in the Hindu tradition, visited by Lord Rama, Lord Laxman, and the Pandavas during their exile."
+  utter_inform_about_shashwat_dham:
+  - text: "Shashwat Dham, created by the Chaudhary Group and located in Chitwan, Nepal, is a significant spiritual and cultural destination. Dedicated to promoting Hindu philosophy and spirituality, it offers a range of religious and cultural attractions, including temples, meditation areas, and educational centers."
+  utter_inform_about_tharu_cultural_museum:
+  - text: "The Tharu Cultural Museum and Research Center in Chitwan dedicates itself to preserving and showcasing the rich cultural heritage of the Tharu community. The museum provides insight into the history, traditions, and way of life of the Tharu people through an impressive collection of artifacts, exhibits, and displays."
+  utter_inform_about_elephant_breeding_center:
+  - text: "The Elephant Breeding Center in Chitwan is a must-visit destination, offering a remarkable opportunity to witness giant elephants, often referred to as the 'Jungle Kings,' all under one roof. Visitors can also observe various other wildlife species, including Red Jungle Fowl, Wild Boar, Spotted Deer, and Wild Elephants."
+  utter_inform_about_bis_hazari_taal:
+  - text: "Bishazari Taal, a beloved tourist destination in Chitwan, offers natural beauty and wildlife appeal. This attraction comprises a network of ponds and smaller lakes nestled within a lush, wooded environment. The presence of the Chitwan National Park Buffer Zone surrounding Bishazari Lake enhances its appeal, sheltering diverse plant and animal species."
+  utter_inform_about_ranipokhari:
+  - text: "Ranipokhari, located in Kirangunj, Bharatpur, is one of Chitwan's increasingly popular tourist destinations. Adorned with exquisite sculptures, including a statue of Buddha, this charming location offers a serene retreat for visitors seeking a peaceful getaway."
+  
+  
+
+  
+  utter_top_10_hiking_places:
+  - text: "Here are the top 10 hiking places in Kathmandu:\n1. Nagarkot\n2. Shivapuri\n3. Kakani\n4. Chandragiri\n5. Chisapani\n6. Jamacho\n7. Namo Buddha\n8. Phulchowki\n9. Champadevi\n10. Amitabha Monastery/White Gumba"
+  utter_nagarkot_hiking:
+  - text: "Nagarkot is a safe, short, and relaxing hiking route. You can enjoy remarkable sights of the Himalayas and stay in a luxurious hotel offering breathtaking views. Don't miss the sunrise view from Nagarkot view tower."
+  utter_shivapuri_hiking:
+  - text: "Shivapuri hiking offers a visit to Budhanilkantha and Nagi Gumba, Rhododendron forests, and stunning views of the valley and Langtang range from the top of the hill.
+  utter_kakani_hiking:
+    - text: "Kakani is a popular picnic spot among locals, best for rock climbing, cycling, and hiking. It's known for its strawberry farm, Trout fish, and authentic local cuisine.
+  utter_chandragiri_hiking:
+    - text: |
+        Chandragiri offers a cable car ride to the hilltop temple, Bhaleshwor Mahadev temple, and breathtaking views of Everest and the entire valley.
+  utter_chisapani_hiking:
+  - text: |
+        Chisapani hike takes you through lush woodlands of Shivapuri National park, a remarkable waterfall of Sundarijal, and offers canoeing in Sundarijal.
+  utter_jamacho_hiking:
+    - text: |
+        Jamacho hill is famous for its Buddhist shrine and monastery, located inside the Shivapuri Nagarjun National Park, offering panoramic views of the Himalayas.
+  utter_namo_buddha_hiking:
+    - text: |
+        Namo Buddha is a sacred Buddhist site with a monastery and monastic college, perfect for yoga and meditation, offering incredible views.
+  utter_phulchowki_hiking:
+    - text: |
+        Phulchowki is the highest hill station from the valley, offering astonishing views of mountains and the city, along with the Phulchowki Mai temple.
+  utter_champadevi_hiking:
+    - text: |
+        Champadevi is the third-highest hill in Kathmandu, offering stupas and shrines at the top, a nearby monastery, and breathtaking sights of Langtang and Gauri Shankar.
+  utter_amitabha_monastery_hiking:
+    - text: |
+        Amitabha Monastery/White Gumba is located at the hill opposite Swayambhunath, offering panoramic views of the valley and beautiful Tibetan art.
+  utter_faq_hiking_in_nepal:
+    - text: |
+        Some frequently asked questions about hiking in Nepal:
+        - What are the best snacks or food to take during hiking?
+        - What are the most essential things to pack while going hiking?
+        - Is a trekking stick really compulsory?
+        - What can be the ideal breakfast during hiking to give us energy?
+        - What are other enjoyable things in Kathmandu?
+  utter_best_snacks_while_hiking:
+    - text: |
+        The best snacks while hiking in Nepal are chowchow, chips, fruits like orange, apple, banana, protein bars, cookies, roasted/fried beans, boiled eggs, bread, peanut butter.
+  utter_essential_things_to_pack:
+    - text: |
+        The most essential things to pack while going hiking are a hiking backpack including snacks, first aid kit, any necessary medications, insect repellants, sunscreen, navigation tool (map and compass), knife or multi-tool, raincoat, sunglasses, water, lighter, hand sanitizer, toiletries, cash, personal ID, camping gear for overnight stay.
+  utter_trekking_stick_compulsory:
+    - text: |
+        There is no yes or no answer to this, as you can get several trekking sticks during the hike, but you may not exactly find the ideal one for you. So if you think you cannot go on a hike without a stick, you can rent it from any shop in Thamel and use it when required.
+  utter_ideal_breakfast_for_hiking:
+    - text: |
+        The ideal breakfast for hiking in Nepal includes Milk, Bread, Boiled egg, Pancakes, any Soup, Roti tarkari, Pulses, Beans, Omelet, and Juice.
+  utter_other_things_to_enjoy_in_kathmandu:
+    - text: |
+        Other enjoyable things in Kathmandu include:
+        - Best Foods in Kathmandu
+        - Kathmandu Valley Trek 3 days
+        - Cultural and Historical Tours in Nepal
+        - Best Cycling Trails in Kathmandu for Adventure
+        - Best Swimming Pools near Kathmandu
+
+
+  
+  utter_world_heritage_sites_in_kathmandu:
+    - text: |
+        Kathmandu Valley is home to seven UNESCO World Heritage Sites:
+        1. Kathmandu Durbar Square
+        2. Bhaktapur Durbar Square
+        3. Patan Durbar Square
+        4. Swayambhunath Stupa
+        5. Boudhanath Stupa
+        6. Pashupatinath Temple
+        7. Changunarayan Temple
+  utter_religious_places_in_kathmandu:
+    - text: |
+        Some of the religious places you can visit in Kathmandu are:
+        1. Pashupatinath Temple
+        2. Swayambhunath Stupa
+        3. Boudhanath Stupa
+        4. Changunarayan Temple
+  utter_kathmandu_durbar_square:
+    - text: |
+        Kathmandu Durbar Square is the historic palace of the former Malla kings, which later passed to the Shahs. The site features intricate architecture, beautiful temples, and museums, such as Hanuman Dhoka, Taleju Mandir, Basantapur Tower, Tribhuvan Museum, and more.
+  utter_bhaktapur_durbar_square:
+    - text: |
+        Bhaktapur Durbar Square is a historical place in the heart of Bhaktapur city, known for its ancient Newari culture. It features pottery and statue shops, along with temples, statues, and palaces like the statue of King Bhupatindra, Naytapola Temple, Malla palace, and Bhaktapur art gallery.
+  utter_patan_durbar_square:
+    - text: |
+        Patan Durbar Square, located in Lalitpur, is the oldest city in Kathmandu Valley. It features four stupas built by Emperor Ashoka, temples, palaces, and courtyards, including Mahabouddha Temple, Kumbheswor Temple, Krishna Temple, and others.
+  utter_swayambhunath:
+    - text: |
+        Swayambhunath is one of the biggest stupas in Nepal, located west of Kathmandu. It features temples, monasteries, and offers panoramic views of the Kathmandu Valley. The stupa is known for its religious significance for Buddhists.
+  utter_boudhanath:
+    - text: |
+        Boudhanath Stupa, located east of Kathmandu, is one of the world's biggest stupas. It features spinning prayer wheels, prayer flags, and is a significant site for Tibetan Buddhism. Visitors can engage in the act of circling the stupa 7 times as a religious deed.
+  utter_pashupatinath:
+    - text: |
+        Pashupatinath Temple is one of the oldest and most important Hindu temples dedicated to Lord Shiva. It features a Pagoda-styled structure with two tiers and is known for its cremation ceremonies along the Bagmati River.
+  utter_changunarayan:
+    - text: |
+        Changunarayan Temple, dedicated to Lord Vishnu, is the oldest temple in the Kathmandu valley. It features sculptures of Vishnu's ten incarnations and is known for its mesmerizing architecture and intricate carvings.
+
+  
+
+
+  responses:
+  utter_national_parks_of_nepal:
+    - text: "Nepal boasts several national parks offering unique experiences. Some of them include Chitwan National Park, Bardia National Park, Sagarmatha National Park, Langtang National Park, and Shey Phoksundo National Park."
+
+  utter_about_chitwan_national_park:
+    - text: "Chitwan National Park, a UNESCO World Heritage Site, is one of Nepal's most popular parks. It is renowned for its population of the rare and endangered one-horned rhinoceros. The park is also home to Bengal tigers, leopards, and over 500 species of birds."
+
+  utter_about_langtang_national_park:
+    - text: "Langtang National Park is a beautiful area located north of Kathmandu near the Tibetan border. The park offers pristine landscapes, high alpine meadows, and diverse flora and fauna. It's also home to the sacred Gosainkunda Lake."
+
+  utter_about_sagarmatha_national_park:
+    - text: "Sagarmatha National Park is home to Mount Everest, the world's highest peak, and is a UNESCO World Heritage Site. The park's unique ecosystem includes rugged terrain, glaciers, and deep valleys, providing a habitat for various endangered species like the snow leopard and red panda."
+
+  utter_about_makalu_barun_national_park:
+    - text: "Makalu Barun National Park is a remote and wild park that stretches from the subtropical forests to the summit of Mount Makalu, the fifth highest mountain in the world. The park is known for its diverse wildlife, including the endangered red panda and snow leopard."
+
+  utter_about_shey_phoksundo_national_park:
+    - text: "Shey Phoksundo National Park is located in the remote Dolpa region of Nepal. It is known for its stunning landscapes, including the deep blue Phoksundo Lake, the country's deepest lake. The park is also home to unique wildlife like the elusive snow leopard and blue sheep."
+
+  utter_about_shivapuri_nagarjun_national_park:
+    - text: "Shivapuri Nagarjun National Park is located near Kathmandu and is known for its rich biodiversity and stunning views of the Kathmandu Valley. The park offers several trekking trails, making it a popular destination for nature lovers and hikers."
+
+  utter_about_banke_national_park:
+    - text: "Banke National Park is a recent addition to Nepal's national parks, established to protect the unique flora and fauna of the region. The park is home to endangered species like the Bengal tiger, Asian elephant, and one-horned rhinoceros."
+
+  utter_about_koshitappu_wildlife_reserve:
+    - text: "Koshi Tappu Wildlife Reserve is a haven for birdwatchers, with over 500 species of birds recorded in the area. The reserve is located in the floodplains of the Sapta Koshi River and is also home to endangered species like the wild water buffalo and gangetic dolphin."
+
+  utter_about_parsa_national_park:
+    - text: "Parsa National Park is located in the subtropical lowlands of Nepal and is home to a variety of wildlife, including the Bengal tiger, wild elephant, and sloth bear. The park offers jeep safaris and jungle walks, allowing visitors to explore its diverse habitats."
+
+  utter_about_shuklaphanta_national_park:
+    - text: "Shuklaphanta National Park is located in the Terai region of Nepal and is known for its grasslands and wetlands. The park is home to endangered species like the Bengal tiger, wild elephant, and hispid hare, making it a popular destination for wildlife enthusiasts."
+
+  
+  utter_chitwan_national_park:
+    - text: |
+        Chitwan National Park is a UNESCO Natural Heritage Site, boasting diverse flora and fauna. It is home to the endangered Asian one-horned rhinoceros and the Royal Bengal tiger.
+    - text: |
+        Best Season to Visit: October to March; April to June (hot); July to September (monsoon)
+
+  utter_koshi_tappu_wildlife_reserve:
+    - text: |
+        Koshi Tappu Wildlife Reserve is a bird watcher's paradise, with around 479 species of birds. It is located in eastern Nepal.
+    - text: |
+        Best Season to Visit: October to March; April to June (hot); July to September (rainy)
+
+  utter_parsa_national_park:
+    - text: |
+        Parsa National Park features tropical and sub-tropical vegetation and is rich in wildlife, including wild elephants, tigers, and leopards.
+    - text: |
+        Best Season to Visit: October to March; April to June (hot); July to September (monsoon)
+
+  utter_shuklaphanta_national_park:
+    - text: |
+        Shuklaphanta National Park is Nepal's second-largest wildlife reserve in Terai, known for its population of swamp deer and diverse wildlife.
+    - text: |
+        Best Season to Visit: October to March; April to June (hot); July to September (rainy)
+
+  utter_banke_national_park:
+    - text: |
+        Banke National Park, established in 2010, is located in the Lumbini zone. It features various ecosystems and wildlife, including tigers and striped hyenas.
+    - text: |
+        Best Season to Visit: Early summer and autumn; winter
+
+  utter_shivapuri_nagarjun_national_park:
+    - text: |
+        Shivapuri Nagarjun National Park, near Kathmandu, is popular for trekking, hiking, and wildlife viewing, boasting diverse flora and fauna.
+    - text: |
+        Best Season to Visit: September to May; June to August (rainy)
+
+  utter_dhorpatan_hunting_reserve:
+    - text: |
+        Dhorpatan Hunting Reserve is the only area in Nepal where licensed hunting is allowed. It is known for its blue sheep population and diverse wildlife.
+    - text: |
+        Best Season to Visit: March to April; October to November; July to September (monsoon); December to February (cold, windy, snow)
+
+  utter_annapurna_conservation_area:
+    - text: |
+        Annapurna Conservation Area is a famous trekking destination with diverse vegetation and wildlife, including snow leopards and blue sheep.
+    - text: |
+        Best Season to Visit: March to May; September to November
+
+  utter_kanchenjunga_conservation_area:
+    - text: |
+        Kanchenjunga Conservation Area, located in northeast Nepal and bordering Tibet-China, features alpine grasslands and diverse flora and fauna, including snow leopards.
+    - text: |
+        Best Season to Visit: March to May; September to November
+
+  utter_shey_phoksundo_national_park:
+    - text: |
+        Shey-Phoksundo National Park is Nepal's largest national park, situated in the trans-Himalayan region. It boasts diverse terrain and wildlife, including the snow leopard.
+    - text: |
+        Best Season to Visit: March to May; September to October
+
+
+
+  
+  utter_provide_pokhara_information:
+    - text: |
+        Sure, here is some information about Pokhara:
+
+        **Places to Visit in Pokhara:**
+        1. **Phewa Lake:** A picturesque lake with stunning views of the Annapurna and Dhaulagiri mountain ranges. Don't miss the Tal Barahi Temple nearby.
+        2. **Davis/Devis Falls:** A unique waterfall that creates an underground tunnel as it flows down.
+        3. **Pokhara Shanti Stupa:** Also known as the Peace Pagoda, offering panoramic views of Phewa Lake and the surrounding mountains.
+        4. **International Mountain Museum:** A fascinating museum showcasing the history and achievements of mountaineering.
+        5. **Sarangkot:** A village known for its panoramic views of the Annapurna, Dhaulagiri, and Manaslu mountain ranges, and for adventure activities like paragliding and zip-lining.
+        6. **Shree Gaden Dhargay Ling Monastery:** A Tibetan Buddhist monastery offering a peaceful environment.
+        7. **Begnas Taal:** A scenic freshwater lake with surrounding greenery and opportunities for fishing and boating.
+        8. **Shree Bindhyabasini Temple:** One of the oldest temples in Pokhara, dedicated to Goddess Bindhyabasini.
+        9. **Gupteshwar Mahadev:** A cave temple near Davis Falls, dedicated to Lord Shiva.
+        10. **Bat Cave:** A cave known for its population of bats, offering a unique experience for visitors.
+        11. **Annapurna Circuit:** A challenging trek in the Annapurna mountain range, offering breathtaking views.
+
+        **Best Time to Visit:** The best time to visit Pokhara is from September to November when the weather is pleasant and ideal for outdoor activities.
+
+        Hope this helps you plan your visit to Pokhara!
+
+
+  
+  utter_phewa_lake:
+    - text: |
+        Phewa Lake is the second largest lake in Nepal and is very popular among tourists coming to Pokhara. It is a semi-natural freshwater lake that is surrounded by Rani Ban. Here, one can see the stunning reflection of the Annapurna and Dhaulagiri mountain ranges in the crystal clear water of the lake. Hiring a traditional boat called a doonga and sailing through the lake is definitely the best way to admire the natural beauty of this place.
+ 
+    - text: |
+        Another nearby attraction for people visiting this lake is the Tal Barahi Temple. Also known as the Lake Temple or Barahi Temple, this is one of the most important religious places for Hindus in Nepal. Built in 1864 by Kaskeli King Kulmandan Singh, this temple is dedicated to the goddess Durga (known as goddess Varahi in Nepal).
+
+
+  utter_davis_falls:
+    - text: |
+        Located at a distance of 2 km from the airport, this stunning waterfall is one of the best places to visit in Pokhara. In the Nepalese language, this waterfall is known as ‘Patale Chango’ which translates to ‘underground waterfall’. One extraordinary thing about this waterfall is that it creates a 500-feet-long underground tunnel as it reaches its bottom. This means that the water from this waterfall does not flow to a river or lagoon but into a mysterious dark hole that eventually disappears in the caves.
+ 
+
+  utter_pokhara_shanti_stupa:
+    - text: |
+        Also known as the Peace Pagoda, Pokhara’s Shanti Stupa is a beautiful Buddhist monument which is located on the top of Anadu Hill. Built by Morioko Sonin, a Nipponzan Myohoji monk, this pristine white-coloured monument is a fine example of the traditional pagoda architectural style. This is the first peace pagoda in the country and the 71st in the world. With a height of 115 feet and a diameter of 344 feet, this monument offers a stunning view of the Phewa Lake and is definitely one of the important places to visit in Pokhara.
+     
+      
+
+  utter_international_mountain_museum:
+    - text: |
+        For people who find facts about mountains and mountaineering extremely fascinating, this is a must-visit place in Pokhara. This awe-inspiring museum boasts a large collection of artefacts and original mountaineering gear along with stories and photographs of the mountains. The establishment was initiated by the Nepal Mountaineering Association (NMA) on November 1, 1973, and the museum was officially opened on February 5, 2004. Originally, this museum was built to maintain records and document the history, evolution, development, and legendary achievements in mountaineering. Here, one can also get a closer look at the lives of the explorers who climbed some of the highest mountain peaks in the world. This museum is one of the major tourist attractions in Pokhara and witnesses a huge visitor influx throughout the year.
+      
+
+  utter_sarangkot:
+    - text: |
+        Sarangkot is a small village that lies on the outskirts of Pokhara. It is known for offering breathtakingly beautiful views of the Annapurna, Dhaulagiri and Manaslu mountain ranges and the Pokhara Valley. Located at an elevation of 1600 meters above sea level, this place is the take-off site for paragliding. Other than this, Sarangkot is also famous for being home to one of the world's fastest zip lines. All in all, if you are looking for some adventure in Nepal, this is one place you should definitely visit on your trip.
+   
+
+  utter_shree_gaden_dhargay_ling_monastery:
+    - text: |
+        This is a Tibetan Buddhist monastery which was established with the aim of making people aware of the Buddhist and Tibetan culture. This is one of the most frequented tourist places in Pokhara, Nepal. With a serene and peaceful environment, this monastery gives visitors a chance to find inner peace while spending some time away from the hustle and bustle of urban life.
+  
+
+  utter_begnas_taal:
+    - text: |
+        Begnas Taal is a freshwater lake lying on the eastern side of the Pokhara valley. After Phewa Lake, this is the second largest in the Pokhara Valley and the third largest in Nepal. Blessed with beautiful natural surroundings, this lake is one of the most popular places to visit in Pokhara. The Khudi Khola dam, which has been built on the western stream of this lake, regulates the water levels. It is the major source of irrigation in every season except for the monsoons. The swamps around the Begnas Taal have been converted into lush green paddy fields, while some sections of the lake are used for fish farming. Overall, this lake acts as a major source of income for the local people.
+
+
+  utter_shree_bindhyabasini_temple:
+    - text: |
+        This is one of the oldest temples in the city of Pokhara. This temple is dedicated to Goddess Bindhyabasini, the incarnation of Kali, and enthrals a large number of visitors. Dating back to the late 18th century, this temple is believed to have been built by King Prithvi Narayan Shah. In today’s times, this temple holds great religious significance and is counted among the most popular places to visit in Pokhara.
+
+
+  utter_gupteshwar_mahadev:
+    - text: |
+        Gupteshwar Mahadev is a cave temple located near Davis Falls. This is the place where the Seti River emerges from the ground. Dedicated to Lord Shiva, this temple was found sometime around the 16th century, and in present times, it is one of the most popular places for sightseeing in Pokhara. Here, one can see the self-emerging Shivaling in the condition it was originally found in, and the cave housing this Shivaling is approximately 3 km long.
+  
+
+  utter_bat_cave:
+    - text: |
+        Also known as Chamere Gufa, the Bat Cave is a solutional cave located in the Kaski District of Pokhara. As the name suggests, one can find thousands of bats clinging upside down from the ceiling and walls of the dark and moist chambers of this cave. This cave, known for being the habitat of horseshoe bats, has become one of the most popular tourist places in Pokhara, Nepal.
+    
+
+  utter_annapurna_circuit:
+    - text: |
+        This is a challenging yet popular Himalayan trek in the Annapurna mountain range. This trail will give you a chance to witness the unparalleled beauty of snow-capped mountain peaks and misty valleys dotted with a number of monasteries. This trek marks its starting point in the lush green villages of the Himalayan foothills and you will reach an altitude of 5416 metres once you cross the Thorung La Pass.
+     
+  
+
+  
+  utter_far_western_nepal_info:
+    - text: |
+        Rich in lush green forests, hills, streams, moorland and landscapes, the Khaptad National park adorns Far West Nepal. It is among the top-rated attractions and best places to visit in the Far West region in Nepal. Khaptad National Park covers 225 kilometres square area.
+
+  utter_api_nampa_conservation_area:
+    - text: |
+        The first conservation areas in Nepal, Api Nampa preserves nature in all its essence and is a great place to explore the culture of Far-West Nepal. Api Nampa conservation area takes its name after Mount Nampa which stands tall at the height of 6757 meters. And, it goes after Mount Api at an altitude of 7132 meters.
+
+  utter_shukla_phanta_national_park:
+    - text: |
+        In Nepal, people call the open grasslands “Phanta”. Shukla Phanta National Park received its name because it is a vast grassland. This panoramic national park lies in Far western Terai and is among the top-rated attractions and best places to visit in the Far West region in Nepal.
+
+  utter_dodhara_chandani_suspension_bridge:
+    - text: |
+        Just two kilometres ahead of Shukla Panta National park stands among the top-rated attractions and best places to visit in Far West in Nepal. It is the Dodhara Chandani Suspension bridge.
+
+  utter_ramaroshan_area:
+    - text: |
+        Ramaroshan area is in Achham district. The elevation of this area varies between 2050 meters to 3792 meters. The weather around the Ramaroshan area is everchanging, and the places have different types of ecology because of it.
+
+  utter_ghodaghodi_lake:
+    - text: |
+        The Ghodaghodi lake is one of the largest lakes around the Far Western region of Nepal. It resides near the western highway connecting to Kailali. Sukhan town is near it. The wetland shelters a wide range of flora and fauna.
+
+  utter_surmasarowar_lake:
+    - text: |
+        Adorning the Bajhang district, Surmasarowar is at the height of 4300 meters. The lake is of historical and natural significance. People find the environment surrounding this lake serene and therapeutic too.
+
+  utter_mohana_river_corridor:
+    - text: |
+        About 1.7 kilometres west of the city, DHhangadhi is the Mohana river corridor. This river preserves one hundred eleven migratory and resident birds, so it makes a beautiful place for bird watching and one of the top-rated attractions and best places to visit in the Far West region in Nepal.
+
+  utter_badhimalika_temple:
+    - text: |
+        Badhimalika temple is a famous temple that lies in the Bajura district of the Far West region of Nepal.
+  
+
+  
+  utter_Annapurna_Base_Camp_Trek:
+    - text: "Escape the Ordinary | Duration: 7-14 Days | Moderate | Max. 4210 meters | Teahouses | March-May/Sept-Dec. Two trekkers are posing in front of the Annapurna Base Camp signboard. One of the famous treks of Nepal is the Annapurna Base Camp Trek. It starts and ends in Pokhara, the beloved tourist destination on the lakeside of Phewa Taal. This trek takes you through the Himalayan landscape to majestic mountains like Dhaulagiri, Annapurna, Machhepuchhre, and Hiunchuli. You will come across many Gurung villages like Ulleri, Ghorepani, and Chhomrong, where you can experience the Gurung lifestyle and traditions. The trail also leads to awe-inspiring glaciers, pristine rivers, and mountain pastures. As for the difficulty level of Annapurna Base Camp Trek, it ranges from easy to moderate. You are eligible for this trek if you are fit and can endure moderate challenges.\n\n**Best Features**\n- Beautiful sunrise view from Poon Hill (3210 m)- a popular viewpoint\n- A relaxing evening at the lakeside in Pokhara\n- Mingle with the ethnic community of Gurungs and Magars\n- Enjoy the hot spring in Jhinu Danda to rejuvenate from the trek.\n\n**To Remember**\n- Annapurna Base Camp is a popular travel destination, which makes its trails mostly crowded during peak trekking seasons. Thus, it is unsuitable if you want an off-the-trail trekking adventure.\n- The trail connecting Hinku Cave and Deurali is avalanche-prone, so you must take a long detour on your route to Annapurna Base Camp if needed.\n[block](,39) Review of the Annapurna Base Camp Trek. \"Annapurna Base Camp Trek is a breathtaking adventure. Nepal Trekking reveals stunning scenery and rich culture with each step. ABC Trek is the perfect blend of nature beauty and local traditions. Anyone seeking the authentic Himalayan trekking experience must do it. \" By Mr. Rick Belliveau, USA, Read Full Review"
+
+  utter_Everest_Base_Camp_Trek:
+    - text: "Worth Wilderness Escape | Duration: 12-15 Days | Moderate | Max. 5,545 meters | Teahouses | March-May/Sept-Dec. Jumping High en route to the Everest Base Camp Everest Base Camp is the first milestone for climbers summiting Mount Everest (8,849 m), a pride of the Khumbu region in north-eastern Nepal. Situated at a height of 5,364 meters, the Everest Base Camp Trek offers a chance to experience the wilderness of the Himalayas and the local lifestyle of its Sherpa community. The exceptional views of snowy mountain peaks, lakes, and glaciers from its trails make it Nepal's best trekking trail. For this Everest Base Camp Trek, you will take a flight from Kathmandu/ Ramechhap (5 hours drive from Kathmandu) to Lukla Airport, which has one of the shortest runways in the world.\n\n**Best Features**\n- Hike to Kala Patthar (5,545 m) for an explicit view of the Mt. Everest\n- Visit Namche Bazar, the trade hub of the Khumbu region\n- The serene Tengboche Monastery – Khumbu's oldest and most significant Buddhist monastery\n- Lodging at the cozy teahouses on the trail\n- Local Nepalese and Sherpa Cuisines and Beverages\n\n**To Remember**\n- Flight delays and cancellations are common due to bad weather conditions at Lukla Airport. Moreover, due to the high altitude, there are chances of getting Acute Mountain Sickness (AMS) on your Everest Base Camp Trek. We recommend you take proper precautions.\n[block](,40) Review of the Everest Base Camp \"Everest Base Camp Trek was a transformative journey. The majestic peaks, warm Sherpa hospitality and challenging trails made it unforgettable. Truly a once-in-a-lifetime experience I'll cherish forever. Definitely a must-do trekking in Nepal. Recommended for everyone\" By Mr. Shelby Gonzalez, USA\" Read Review in details"
+
+  utter_Mardi_Base_Camp_Trek:
+    - text: "Take only the memories; leave your footprints in the wilderness of nature Duration: 5-8 Days | Easy/Moderate| Max. 4200 Meters | Teahouses | March-May/Sept-Dec. Hikers gradually push forward en route to the Mardi Himal View Point Mardi Himal Trek is a less strenuous trek. It is one of the shorter Treks in Nepal. It is suitable for those who wish to enjoy nature up close at a comfortable pace. Depending on your choice, it offers a multi-day or multi-week hiking experience and is perfect for anyone seeking a more moderate hike. This package is another good choice for first-time trekkers. The trail packs an adventure through hillsides, cliffs, raging rivers, and a forest full of rhododendrons. You will visit the Mardi Himal Base Camp (4,500 meters) on this trek. You can extend your trek to include fascinating rock climbing and fishing activities. Best Features An off-the-beaten-trail experience A mountain view of Machhapuchhre, Annapurna South, and Hiunchuli from close proximity Cozy homestays and teahouses on the trail Experience the local culture of Gurungs, Tamangs, Brahmins and Chhetirs You can see domesticated yaks and other wildlife on your trek To Remember The Mardi Himal trek route was recently opened for commercial trekking in 2012, but it has become very famous among trekkers within a short period. So, it will be packed during peak seasons."
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
